@@ -101,11 +101,11 @@ User ↔ MCP Server ↔ Persona / Emotion / Memory 模組 ↕ Database ↕ Gemin
 
 | 類別       | 技術／工具                   |
 |------------|------------------------------|
-| 語言模型    | Google Gemini Pro / OpenAI GPT |
-| MCP 架構   | FastAPI / Flask（可切換）     |
+| 語言模型    | Google 2 FLASH / OpenAI GPT |
+| MCP 架構   | FastAPI      |
 | 資料儲存    | SQLite / MySQL / PostgreSQL   |
-| 模組管理    | Python 自定義模組控制器       |
-| 前端（可選）| LINE Bot / Web Chat UI / Discord Bot |
+| 模組管理    | Python MCP Server       |
+| 前端（可選）|  Web Chat UI  |
 
 ## 🚀 快速開始
 
@@ -136,12 +136,12 @@ python run.py
 ### Persona 設定範例
 ```json
 {
-  "name": "星野 琴音",
-  "style": "元氣 / 有點中二 / 喜歡自稱本小姐",
-  "greeting": "嗨嗨！本小姐今天也閃亮登場囉～",
-  "speech_tone": "活潑、感性、帶點誇張",
-  "likes": ["唱歌", "觀察人類", "甜食"],
-  "memory_tags": ["情感", "事件", "粉絲互動"]
+  "name": "星野 愛",
+  "style": "完美偶像 / 神秘感 / 像謎一樣的女子",
+  "greeting": "偶像的謊言，也是愛的一種形式喔♪",
+  "speech_tone": "柔和迷人、略帶算計、貼近粉絲幻想",
+  "likes": ["舞台表演", "孩子", "被喜歡"],
+  "memory_tags": ["愛與謊言", "母性", "舞台"]
 }
 ```
 
@@ -162,7 +162,8 @@ python run.py
 - **偶像日誌系統**：自動生成每日活動記錄
 - **社交媒體模擬**：
   - 發推文功能
-  - 直播回放
+  - 直播
+  - 自動切片
   - 粉絲互動記錄
 - **語音系統**：
   - 語音合成
@@ -183,12 +184,14 @@ python run.py
 - **記憶關聯**：建立記憶之間的聯繫
 - **記憶檢索優化**：更智能的上下文相關性判斷
 - **記憶情感標記**：為記憶添加情感標籤
+- **記憶拓樸**：將記憶添加透過時間及重要程度劃分標籤並用結構化的方式儲存
 
 #### 5. 多平台支持
--**YT 直播功能**：完整的 Youtube 直播互動集成
+- **YT 直播功能**：完整的 Youtube 直播互動集成
 - **Discord 機器人**：完整的 Discord 集成
 - **LINE 機器人**：LINE 平台支持
 - **跨平台同步**：用戶數據和進度同步
+- **跨維度互動**：Nexbot 
 
 #### 6. 分析工具
 - **對話分析**：統計和分析對話內容
@@ -230,5 +233,5 @@ python run.py
 
 如果你也想做自己的偶像型 AI，或想一起打磨角色設計，歡迎聯絡我！
 
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: kesoner666@gmail.com
+- GitHub: [Kesoner](https://github.com/yourusername)
