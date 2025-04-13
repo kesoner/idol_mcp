@@ -310,4 +310,4 @@ npm run dev
 如果你也想做自己的偶像型 AI，或想一起打磨角色設計，歡迎聯絡我！
 
 - Email: kesoner666@gmail.com
-- GitHub: [Kesoner](https://github.com/yourusername)
+- GitHub: [Kesoner]([https://github.com/kesoner])
